@@ -5,7 +5,9 @@
 ## Technologies
 
 - `JavaScript`
+- `Vite`
 - `React.js`
 - `Git` `Github`
+- `Node.js`
 
 ![preview](./.github/home.png)
