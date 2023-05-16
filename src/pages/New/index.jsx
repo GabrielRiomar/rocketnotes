@@ -49,6 +49,18 @@ export function New(){
   }
 
   async function handleNewNote(){
+    if(!title){
+      return alert("Field title in blank")
+    }
+
+    if(newLink){
+      return alert("There's a Link on the field below Useful Links that you didn't added")
+    }
+
+    if(newTag){
+      return alert("There's a Tag on the field below Markers that you didn't added")
+    }
+    
     await api.post("/notes", {
       title,
       description,
